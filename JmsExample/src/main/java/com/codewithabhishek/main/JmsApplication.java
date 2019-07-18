@@ -37,8 +37,8 @@ public class JmsApplication {
 
 	String msg = "CodeWithAbhishek";// this is the meaasge which we are going to send
 
-	@RequestMapping("/codewithabhishek")
-	public String Sendmsg() {
+	@RequestMapping("/codewithabhishek")// after runing up your application your need hit the url in your web browser for sending message
+	public String Sendmsg() {          //http://localhost:8080/codewithabhsihek
 
 		System.out.println("Message is sending");
 
